@@ -15,6 +15,9 @@
 		AFCD291B21D8DC99002DFC50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFCD291921D8DC99002DFC50 /* LaunchScreen.storyboard */; };
 		AFCD292621D8DC9A002DFC50 /* StretchyHeaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCD292521D8DC9A002DFC50 /* StretchyHeaderTests.swift */; };
 		AFCD293121D8DC9A002DFC50 /* StretchyHeaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCD293021D8DC9A002DFC50 /* StretchyHeaderUITests.swift */; };
+		AFCD293F21D8DFCB002DFC50 /* StretchyHeaderCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCD293E21D8DFCB002DFC50 /* StretchyHeaderCollectionViewController.swift */; };
+		AFCD294121D8E6C4002DFC50 /* HeadViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCD294021D8E6C4002DFC50 /* HeadViewCell.swift */; };
+		AFCD294521D94960002DFC50 /* StretchyHeaderLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCD294421D94960002DFC50 /* StretchyHeaderLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		AFCD292C21D8DC9A002DFC50 /* StretchyHeaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StretchyHeaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFCD293021D8DC9A002DFC50 /* StretchyHeaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyHeaderUITests.swift; sourceTree = "<group>"; };
 		AFCD293221D8DC9A002DFC50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFCD293E21D8DFCB002DFC50 /* StretchyHeaderCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyHeaderCollectionViewController.swift; sourceTree = "<group>"; };
+		AFCD294021D8E6C4002DFC50 /* HeadViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadViewCell.swift; sourceTree = "<group>"; };
+		AFCD294421D94960002DFC50 /* StretchyHeaderLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyHeaderLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 		AFCD290C21D8DC98002DFC50 /* StretchyHeader */ = {
 			isa = PBXGroup;
 			children = (
+				AFCD293E21D8DFCB002DFC50 /* StretchyHeaderCollectionViewController.swift */,
+				AFCD294421D94960002DFC50 /* StretchyHeaderLayout.swift */,
+				AFCD294021D8E6C4002DFC50 /* HeadViewCell.swift */,
 				AFCD290D21D8DC98002DFC50 /* AppDelegate.swift */,
 				AFCD290F21D8DC98002DFC50 /* ViewController.swift */,
 				AFCD291121D8DC98002DFC50 /* Main.storyboard */,
@@ -259,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFCD294521D94960002DFC50 /* StretchyHeaderLayout.swift in Sources */,
 				AFCD291621D8DC98002DFC50 /* StretchyHeader.xcdatamodeld in Sources */,
+				AFCD293F21D8DFCB002DFC50 /* StretchyHeaderCollectionViewController.swift in Sources */,
+				AFCD294121D8E6C4002DFC50 /* HeadViewCell.swift in Sources */,
 				AFCD291021D8DC98002DFC50 /* ViewController.swift in Sources */,
 				AFCD290E21D8DC98002DFC50 /* AppDelegate.swift in Sources */,
 			);
